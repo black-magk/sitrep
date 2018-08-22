@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		E638EDDF3968232C8E9818D4 /* Pods_Sitrep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A077D360F68463AEA4B6226 /* Pods_Sitrep.framework */; };
 		F709D0A7212CF7F800AD901C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F709D0A6212CF7F800AD901C /* GoogleService-Info.plist */; };
+		F709D0AC212D063100AD901C /* UIViewArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F709D0AB212D063100AD901C /* UIViewArchive.swift */; };
+		F709D0AE212D068000AD901C /* UIButtonArchive.swift in Sources */ = {isa = PBXBuildFile; fileRef = F709D0AD212D068000AD901C /* UIButtonArchive.swift */; };
 		F720BF79212CEA270057550A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF78212CEA270057550A /* AppDelegate.swift */; };
 		F720BF7B212CEA270057550A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF7A212CEA270057550A /* ViewController.swift */; };
 		F720BF7E212CEA270057550A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F720BF7C212CEA270057550A /* Main.storyboard */; };
@@ -45,6 +47,8 @@
 		23BB332076E04F7435BA564A /* Pods-Sitrep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sitrep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sitrep/Pods-Sitrep.debug.xcconfig"; sourceTree = "<group>"; };
 		2CF057FB0146C90A050D6A4E /* Pods-Sitrep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sitrep.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sitrep/Pods-Sitrep.release.xcconfig"; sourceTree = "<group>"; };
 		F709D0A6212CF7F800AD901C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
+		F709D0AB212D063100AD901C /* UIViewArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewArchive.swift; sourceTree = "<group>"; };
+		F709D0AD212D068000AD901C /* UIButtonArchive.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIButtonArchive.swift; sourceTree = "<group>"; };
 		F720BF75212CEA270057550A /* Sitrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sitrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F720BF78212CEA270057550A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F720BF7A212CEA270057550A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -108,6 +112,15 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		F709D0AA212D061C00AD901C /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				F709D0AB212D063100AD901C /* UIViewArchive.swift */,
+				F709D0AD212D068000AD901C /* UIButtonArchive.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
 		F720BF6C212CEA260057550A = {
 			isa = PBXGroup;
 			children = (
@@ -134,6 +147,7 @@
 		F720BF77212CEA270057550A /* Sitrep */ = {
 			isa = PBXGroup;
 			children = (
+				F709D0AA212D061C00AD901C /* UI */,
 				F720BFB1212CEEF00057550A /* Services */,
 				F720BFB8212CEF3C0057550A /* Errors */,
 				F720BFB5212CEF230057550A /* Controllers */,
@@ -385,8 +399,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				F720BF7B212CEA270057550A /* ViewController.swift in Sources */,
+				F709D0AC212D063100AD901C /* UIViewArchive.swift in Sources */,
 				F720BFB7212CEF2E0057550A /* SignupViewController.swift in Sources */,
 				F720BF79212CEA270057550A /* AppDelegate.swift in Sources */,
+				F709D0AE212D068000AD901C /* UIButtonArchive.swift in Sources */,
 				F720BFBC212CEF760057550A /* Error.swift in Sources */,
 				F720BFBD212CF4BF0057550A /* FriendSystem.swift in Sources */,
 				F720BF81212CEA270057550A /* Sitrep.xcdatamodeld in Sources */,
