@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		E638EDDF3968232C8E9818D4 /* Pods_Sitrep.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A077D360F68463AEA4B6226 /* Pods_Sitrep.framework */; };
+		F709D0A7212CF7F800AD901C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F709D0A6212CF7F800AD901C /* GoogleService-Info.plist */; };
 		F720BF79212CEA270057550A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF78212CEA270057550A /* AppDelegate.swift */; };
 		F720BF7B212CEA270057550A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF7A212CEA270057550A /* ViewController.swift */; };
 		F720BF7E212CEA270057550A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F720BF7C212CEA270057550A /* Main.storyboard */; };
@@ -43,6 +44,7 @@
 		1A077D360F68463AEA4B6226 /* Pods_Sitrep.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Sitrep.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		23BB332076E04F7435BA564A /* Pods-Sitrep.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sitrep.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Sitrep/Pods-Sitrep.debug.xcconfig"; sourceTree = "<group>"; };
 		2CF057FB0146C90A050D6A4E /* Pods-Sitrep.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Sitrep.release.xcconfig"; path = "Pods/Target Support Files/Pods-Sitrep/Pods-Sitrep.release.xcconfig"; sourceTree = "<group>"; };
+		F709D0A6212CF7F800AD901C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = "GoogleService-Info.plist"; path = "../../GoogleService-Info.plist"; sourceTree = "<group>"; };
 		F720BF75212CEA270057550A /* Sitrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sitrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F720BF78212CEA270057550A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F720BF7A212CEA270057550A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		F720BF6C212CEA260057550A = {
 			isa = PBXGroup;
 			children = (
+				F709D0A6212CF7F800AD901C /* GoogleService-Info.plist */,
 				F720BF77212CEA270057550A /* Sitrep */,
 				F720BF8F212CEA2C0057550A /* SitrepTests */,
 				F720BF9A212CEA2C0057550A /* SitrepUITests */,
@@ -303,6 +306,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F720BF86212CEA2C0057550A /* LaunchScreen.storyboard in Resources */,
+				F709D0A7212CF7F800AD901C /* GoogleService-Info.plist in Resources */,
 				F720BF83212CEA2C0057550A /* Assets.xcassets in Resources */,
 				F720BF7E212CEA270057550A /* Main.storyboard in Resources */,
 			);
