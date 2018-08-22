@@ -16,6 +16,10 @@
 		F720BF86212CEA2C0057550A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F720BF84212CEA2C0057550A /* LaunchScreen.storyboard */; };
 		F720BF91212CEA2C0057550A /* SitrepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF90212CEA2C0057550A /* SitrepTests.swift */; };
 		F720BF9C212CEA2C0057550A /* SitrepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF9B212CEA2C0057550A /* SitrepUITests.swift */; };
+		F720BFB7212CEF2E0057550A /* SignupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BFB6212CEF2E0057550A /* SignupViewController.swift */; };
+		F720BFBC212CEF760057550A /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BFBB212CEF760057550A /* Error.swift */; };
+		F720BFBD212CF4BF0057550A /* FriendSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BFB2212CEEF80057550A /* FriendSystem.swift */; };
+		F720BFBE212CF4CB0057550A /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BFB4212CEF1E0057550A /* User.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +57,10 @@
 		F720BF97212CEA2C0057550A /* SitrepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SitrepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F720BF9B212CEA2C0057550A /* SitrepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitrepUITests.swift; sourceTree = "<group>"; };
 		F720BF9D212CEA2C0057550A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F720BFB2212CEEF80057550A /* FriendSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FriendSystem.swift; sourceTree = "<group>"; };
+		F720BFB4212CEF1E0057550A /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		F720BFB6212CEF2E0057550A /* SignupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupViewController.swift; sourceTree = "<group>"; };
+		F720BFBB212CEF760057550A /* Error.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Error.swift; path = ../../../../../.Trash/Error.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,8 +131,10 @@
 		F720BF77212CEA270057550A /* Sitrep */ = {
 			isa = PBXGroup;
 			children = (
-				F720BF78212CEA270057550A /* AppDelegate.swift */,
-				F720BF7A212CEA270057550A /* ViewController.swift */,
+				F720BFB1212CEEF00057550A /* Services */,
+				F720BFB8212CEF3C0057550A /* Errors */,
+				F720BFB5212CEF230057550A /* Controllers */,
+				F720BFB3212CEF110057550A /* Model */,
 				F720BF7C212CEA270057550A /* Main.storyboard */,
 				F720BF82212CEA2C0057550A /* Assets.xcassets */,
 				F720BF84212CEA2C0057550A /* LaunchScreen.storyboard */,
@@ -150,6 +160,40 @@
 				F720BF9D212CEA2C0057550A /* Info.plist */,
 			);
 			path = SitrepUITests;
+			sourceTree = "<group>";
+		};
+		F720BFB1212CEEF00057550A /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				F720BF78212CEA270057550A /* AppDelegate.swift */,
+				F720BFB2212CEEF80057550A /* FriendSystem.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		F720BFB3212CEF110057550A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				F720BFB4212CEF1E0057550A /* User.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		F720BFB5212CEF230057550A /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F720BF7A212CEA270057550A /* ViewController.swift */,
+				F720BFB6212CEF2E0057550A /* SignupViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		F720BFB8212CEF3C0057550A /* Errors */ = {
+			isa = PBXGroup;
+			children = (
+				F720BFBB212CEF760057550A /* Error.swift */,
+			);
+			path = Errors;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -337,8 +381,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F720BF7B212CEA270057550A /* ViewController.swift in Sources */,
+				F720BFB7212CEF2E0057550A /* SignupViewController.swift in Sources */,
 				F720BF79212CEA270057550A /* AppDelegate.swift in Sources */,
+				F720BFBC212CEF760057550A /* Error.swift in Sources */,
+				F720BFBD212CF4BF0057550A /* FriendSystem.swift in Sources */,
 				F720BF81212CEA270057550A /* Sitrep.xcdatamodeld in Sources */,
+				F720BFBE212CF4CB0057550A /* User.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

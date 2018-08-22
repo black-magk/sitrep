@@ -8,6 +8,7 @@
 
 import UIKit
 import CoreData
+import Firebase
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,7 +17,32 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
+        
+        FirebaseApp.configure()
+        
+        Auth.auth().addStateDidChangeListener { auth, user in
+            
+            if user != nil {
+                let  rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "tabVC") as! UITabBarController
+                
+                let appDelegate = UIApplication.shared.delegate as! AppDelegate
+                appDelegate.window?.rootViewController = rootVC
+                // user signed in
+            } else {
+                
+//                let rootVC = UIStoryboard(name: "Main", bundle: nil).instantiateViewController(withIdentifier: "AuthVC") as! AuthVC
+//                let appDelegate = UIApplication.shared.delegate as! AppDelegate
+//                appDelegate.window?.rootViewController = rootVC
+            }}
+        
+        //        if Auth.auth().currentUser == nil {
+        //            let storyboard = UIStoryboard(name: "Main", bundle: Bundle.main)
+        //            let authVC = storyboard.instantiateViewController(withIdentifier: "AuthVC")
+        //            window?.makeKeyAndVisible()
+        //            window?.rootViewController?.present(authVC, animated: true, completion: nil)
+        //        }
+        //
+        
         return true
     }
 
