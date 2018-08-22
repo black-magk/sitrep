@@ -1,0 +1,608 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F720BF79212CEA270057550A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF78212CEA270057550A /* AppDelegate.swift */; };
+		F720BF7B212CEA270057550A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF7A212CEA270057550A /* ViewController.swift */; };
+		F720BF7E212CEA270057550A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F720BF7C212CEA270057550A /* Main.storyboard */; };
+		F720BF81212CEA270057550A /* Sitrep.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F720BF7F212CEA270057550A /* Sitrep.xcdatamodeld */; };
+		F720BF83212CEA2C0057550A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F720BF82212CEA2C0057550A /* Assets.xcassets */; };
+		F720BF86212CEA2C0057550A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F720BF84212CEA2C0057550A /* LaunchScreen.storyboard */; };
+		F720BF91212CEA2C0057550A /* SitrepTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF90212CEA2C0057550A /* SitrepTests.swift */; };
+		F720BF9C212CEA2C0057550A /* SitrepUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F720BF9B212CEA2C0057550A /* SitrepUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F720BF8D212CEA2C0057550A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F720BF6D212CEA260057550A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F720BF74212CEA270057550A;
+			remoteInfo = Sitrep;
+		};
+		F720BF98212CEA2C0057550A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F720BF6D212CEA260057550A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F720BF74212CEA270057550A;
+			remoteInfo = Sitrep;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F720BF75212CEA270057550A /* Sitrep.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Sitrep.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F720BF78212CEA270057550A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F720BF7A212CEA270057550A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		F720BF7D212CEA270057550A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F720BF80212CEA270057550A /* Sitrep.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Sitrep.xcdatamodel; sourceTree = "<group>"; };
+		F720BF82212CEA2C0057550A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F720BF85212CEA2C0057550A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F720BF87212CEA2C0057550A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F720BF8C212CEA2C0057550A /* SitrepTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SitrepTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F720BF90212CEA2C0057550A /* SitrepTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitrepTests.swift; sourceTree = "<group>"; };
+		F720BF92212CEA2C0057550A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F720BF97212CEA2C0057550A /* SitrepUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SitrepUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F720BF9B212CEA2C0057550A /* SitrepUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SitrepUITests.swift; sourceTree = "<group>"; };
+		F720BF9D212CEA2C0057550A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F720BF72212CEA270057550A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720BF89212CEA2C0057550A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720BF94212CEA2C0057550A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F720BF6C212CEA260057550A = {
+			isa = PBXGroup;
+			children = (
+				F720BF77212CEA270057550A /* Sitrep */,
+				F720BF8F212CEA2C0057550A /* SitrepTests */,
+				F720BF9A212CEA2C0057550A /* SitrepUITests */,
+				F720BF76212CEA270057550A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F720BF76212CEA270057550A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F720BF75212CEA270057550A /* Sitrep.app */,
+				F720BF8C212CEA2C0057550A /* SitrepTests.xctest */,
+				F720BF97212CEA2C0057550A /* SitrepUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F720BF77212CEA270057550A /* Sitrep */ = {
+			isa = PBXGroup;
+			children = (
+				F720BF78212CEA270057550A /* AppDelegate.swift */,
+				F720BF7A212CEA270057550A /* ViewController.swift */,
+				F720BF7C212CEA270057550A /* Main.storyboard */,
+				F720BF82212CEA2C0057550A /* Assets.xcassets */,
+				F720BF84212CEA2C0057550A /* LaunchScreen.storyboard */,
+				F720BF87212CEA2C0057550A /* Info.plist */,
+				F720BF7F212CEA270057550A /* Sitrep.xcdatamodeld */,
+			);
+			path = Sitrep;
+			sourceTree = "<group>";
+		};
+		F720BF8F212CEA2C0057550A /* SitrepTests */ = {
+			isa = PBXGroup;
+			children = (
+				F720BF90212CEA2C0057550A /* SitrepTests.swift */,
+				F720BF92212CEA2C0057550A /* Info.plist */,
+			);
+			path = SitrepTests;
+			sourceTree = "<group>";
+		};
+		F720BF9A212CEA2C0057550A /* SitrepUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F720BF9B212CEA2C0057550A /* SitrepUITests.swift */,
+				F720BF9D212CEA2C0057550A /* Info.plist */,
+			);
+			path = SitrepUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F720BF74212CEA270057550A /* Sitrep */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F720BFA0212CEA2C0057550A /* Build configuration list for PBXNativeTarget "Sitrep" */;
+			buildPhases = (
+				F720BF71212CEA270057550A /* Sources */,
+				F720BF72212CEA270057550A /* Frameworks */,
+				F720BF73212CEA270057550A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Sitrep;
+			productName = Sitrep;
+			productReference = F720BF75212CEA270057550A /* Sitrep.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F720BF8B212CEA2C0057550A /* SitrepTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F720BFA3212CEA2C0057550A /* Build configuration list for PBXNativeTarget "SitrepTests" */;
+			buildPhases = (
+				F720BF88212CEA2C0057550A /* Sources */,
+				F720BF89212CEA2C0057550A /* Frameworks */,
+				F720BF8A212CEA2C0057550A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F720BF8E212CEA2C0057550A /* PBXTargetDependency */,
+			);
+			name = SitrepTests;
+			productName = SitrepTests;
+			productReference = F720BF8C212CEA2C0057550A /* SitrepTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F720BF96212CEA2C0057550A /* SitrepUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F720BFA6212CEA2C0057550A /* Build configuration list for PBXNativeTarget "SitrepUITests" */;
+			buildPhases = (
+				F720BF93212CEA2C0057550A /* Sources */,
+				F720BF94212CEA2C0057550A /* Frameworks */,
+				F720BF95212CEA2C0057550A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F720BF99212CEA2C0057550A /* PBXTargetDependency */,
+			);
+			name = SitrepUITests;
+			productName = SitrepUITests;
+			productReference = F720BF97212CEA2C0057550A /* SitrepUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F720BF6D212CEA260057550A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "Landon Carr";
+				TargetAttributes = {
+					F720BF74212CEA270057550A = {
+						CreatedOnToolsVersion = 10.0;
+					};
+					F720BF8B212CEA2C0057550A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F720BF74212CEA270057550A;
+					};
+					F720BF96212CEA2C0057550A = {
+						CreatedOnToolsVersion = 10.0;
+						TestTargetID = F720BF74212CEA270057550A;
+					};
+				};
+			};
+			buildConfigurationList = F720BF70212CEA260057550A /* Build configuration list for PBXProject "Sitrep" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F720BF6C212CEA260057550A;
+			productRefGroup = F720BF76212CEA270057550A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F720BF74212CEA270057550A /* Sitrep */,
+				F720BF8B212CEA2C0057550A /* SitrepTests */,
+				F720BF96212CEA2C0057550A /* SitrepUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F720BF73212CEA270057550A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720BF86212CEA2C0057550A /* LaunchScreen.storyboard in Resources */,
+				F720BF83212CEA2C0057550A /* Assets.xcassets in Resources */,
+				F720BF7E212CEA270057550A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720BF8A212CEA2C0057550A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720BF95212CEA2C0057550A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F720BF71212CEA270057550A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720BF7B212CEA270057550A /* ViewController.swift in Sources */,
+				F720BF79212CEA270057550A /* AppDelegate.swift in Sources */,
+				F720BF81212CEA270057550A /* Sitrep.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720BF88212CEA2C0057550A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720BF91212CEA2C0057550A /* SitrepTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F720BF93212CEA2C0057550A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F720BF9C212CEA2C0057550A /* SitrepUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F720BF8E212CEA2C0057550A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F720BF74212CEA270057550A /* Sitrep */;
+			targetProxy = F720BF8D212CEA2C0057550A /* PBXContainerItemProxy */;
+		};
+		F720BF99212CEA2C0057550A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F720BF74212CEA270057550A /* Sitrep */;
+			targetProxy = F720BF98212CEA2C0057550A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F720BF7C212CEA270057550A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F720BF7D212CEA270057550A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F720BF84212CEA2C0057550A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F720BF85212CEA2C0057550A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F720BF9E212CEA2C0057550A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F720BF9F212CEA2C0057550A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F720BFA1212CEA2C0057550A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY82K59768;
+				INFOPLIST_FILE = Sitrep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blackmagk-Limited-Liability-Company.Sitrep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F720BFA2212CEA2C0057550A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY82K59768;
+				INFOPLIST_FILE = Sitrep/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blackmagk-Limited-Liability-Company.Sitrep";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F720BFA4212CEA2C0057550A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY82K59768;
+				INFOPLIST_FILE = SitrepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blackmagk-Limited-Liability-Company.SitrepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sitrep.app/Sitrep";
+			};
+			name = Debug;
+		};
+		F720BFA5212CEA2C0057550A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY82K59768;
+				INFOPLIST_FILE = SitrepTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blackmagk-Limited-Liability-Company.SitrepTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Sitrep.app/Sitrep";
+			};
+			name = Release;
+		};
+		F720BFA7212CEA2C0057550A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY82K59768;
+				INFOPLIST_FILE = SitrepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blackmagk-Limited-Liability-Company.SitrepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sitrep;
+			};
+			name = Debug;
+		};
+		F720BFA8212CEA2C0057550A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = PY82K59768;
+				INFOPLIST_FILE = SitrepUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "Blackmagk-Limited-Liability-Company.SitrepUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Sitrep;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F720BF70212CEA260057550A /* Build configuration list for PBXProject "Sitrep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F720BF9E212CEA2C0057550A /* Debug */,
+				F720BF9F212CEA2C0057550A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F720BFA0212CEA2C0057550A /* Build configuration list for PBXNativeTarget "Sitrep" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F720BFA1212CEA2C0057550A /* Debug */,
+				F720BFA2212CEA2C0057550A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F720BFA3212CEA2C0057550A /* Build configuration list for PBXNativeTarget "SitrepTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F720BFA4212CEA2C0057550A /* Debug */,
+				F720BFA5212CEA2C0057550A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F720BFA6212CEA2C0057550A /* Build configuration list for PBXNativeTarget "SitrepUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F720BFA7212CEA2C0057550A /* Debug */,
+				F720BFA8212CEA2C0057550A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F720BF7F212CEA270057550A /* Sitrep.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F720BF80212CEA270057550A /* Sitrep.xcdatamodel */,
+			);
+			currentVersion = F720BF80212CEA270057550A /* Sitrep.xcdatamodel */;
+			path = Sitrep.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F720BF6D212CEA260057550A /* Project object */;
+}
